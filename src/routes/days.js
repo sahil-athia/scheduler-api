@@ -20,6 +20,7 @@ module.exports = db => {
       response.json(days);
     });
   });
+  
 
   return router;
 };
